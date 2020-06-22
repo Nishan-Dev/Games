@@ -21,7 +21,6 @@ while flag:
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT]:
         x-= velocity
-
     if keys[pygame.K_RIGHT]:
         x+= velocity
     if keys[pygame.K_UP]:
